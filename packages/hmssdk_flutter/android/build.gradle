@@ -37,6 +37,9 @@ android {
     }
     defaultConfig {
         minSdkVersion 21
+         if (project.android.hasProperty('namespace')) {
+        namespace 'live.hms.hmssdk_flutter'
+        }
     }
 }
 
