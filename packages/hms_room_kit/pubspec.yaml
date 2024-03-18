@@ -14,7 +14,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  hmssdk_flutter: 1.9.13
+  hmssdk_flutter:
+      git:
+        url: https://github.com/Gini-Group/100ms-flutter.git
+        path: ./packages/hmssdk_flutter
   intl: ^0.18.0
   permission_handler: ^11.0.0
   provider: ^6.0.5
